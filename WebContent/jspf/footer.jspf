@@ -1,0 +1,42 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page trimDirectiveWhitespaces="true" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Insert title here</title>
+</head>
+<style>
+	/* 회사정보 */
+	#companyInfoDiv{
+		margin-top:100px;
+		height:200px;	
+		margin-bottom:50px
+	}
+	#companyInfoDiv>div{		
+		text-align:center;
+	} 
+	#companyInfoDiv img{
+		width:210px;
+		height:70px;
+	}
+</style>
+<footer>
+<div id="companyInfoDiv" class="border row align-items-center"style="font-size:0.9em">
+	<div class="col-12 col-md-4"><img src="<%=request.getContextPath()%>/img/logo.jpg" onclick="location.href='<%=request.getContextPath()%>/index.do'" style="cursor:pointer"></div>
+	<div class="col-12 col-md-4">
+		<b>GetterSetter</b> Business No. : 428-34-23442<br/>
+			Representative : An.SSam | Phone : 02-6453-5567
+			<p><i>33, Siheung-daero 163-gil, Guro-gu, Seoul, Republic of Korea</i></p>
+	</div>
+	<div class="col-12 col-md-4">
+		<p>
+			<a href="#">Recruit</a> |<a href="#"> How to use</a> |<a href="#"> App-download</a>
+		</p>
+	</div>
+</div>
+</footer>
+</html>

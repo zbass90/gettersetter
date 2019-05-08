@@ -1,0 +1,138 @@
+@charset "UTF-8";
+	body{
+		font-family: 'Montserrat', sans-serif;
+	}
+	#top{
+		border-bottom:1px solid #D6D8DB;
+	}
+	#top img{
+		width:300px;
+		height:100px;
+	}
+	/* 최상단 div  */
+	#menuDiv{			
+		height:100px;
+	}
+	#logoDiv{
+		height:100px;
+	}
+	#logoDiv img{
+		cursor:pointer;
+	}
+	.navbar{
+		border-bottom:#eee solid 2px;
+	}
+	/* 로그인,회원가입 버튼들 */
+	.nav-link-blk{
+		color:black;
+	}
+	.nav-link:hover{
+		font-weight:bolder;
+	}
+	#logoDiv img{
+		width:300px;
+		height:100px;
+	}
+	#myInfo img{
+		width:50px;
+		height:50px;	
+	}
+	
+	
+	.proFrm{
+		width:80%;
+	}
+	#proImgUpload{
+		position: absolute;
+		left:-9999px;
+	}
+	.proImg{
+		width:70%;
+		height:30%;
+		cursor:pointer;
+	}
+	#proImgBtn{
+		width:70%;
+		height:10%;
+		line-height:1;
+		margin-top:10px;
+		cursor:pointer;
+		font-size:0.9em;
+	}
+	.nav-link-pri{
+		color:primary;
+	}
+	.nav-link:hover{
+		color:#025fc3;
+	}
+	.fnt-size-title{
+		font-size:1.2em
+	}
+	.fnt-size-content{
+		font-size:0.9em;
+		color:#777;
+	}
+	.fnt-size-content-empty{
+		font-size:0.9em;
+		color:black;
+		text-align:center;
+	}
+	.thumbnail-img{
+		width:246px;
+		height:137px;
+		margin-right:20px;
+	}
+	.media-body-frm{
+		width:100%;
+		height:137px;
+		overflow:hidden;
+	}
+	.media{
+		position:relative;
+	}
+	.media-click{
+		cursor:pointer;
+	}
+	.media-clock{
+		width:25px;
+		height:25px;
+		position:absolute;
+		left:215px;
+		top:5px;
+		display:none;
+		cursor:pointer;
+	}
+	.media-close{
+		width:25px;
+		height:25px;
+		display:none;
+		cursor:pointer;
+	}
+	/* 회사정보 */
+	#companyInfoDiv{
+		margin-top:100px;
+		height:200px;	
+		margin-bottom:50px
+	}
+	#companyInfoDiv>div{		
+		text-align:center;
+	} 
+	#companyInfoDiv img{
+		width:210px;
+		height:70px;
+	}
+	/* ============================================= */
+	#total{display:none}
+	#closeBtn{margin-top:250px; margin-left:-80px}
+	#sport, #arts, #humanities{margin-top:2%;}
+	#div1{float:left;background:white; width:35%; text-align:center; height:200px; padding:2% 0px 3% 0px; border-radius: 10px; margin-top:10px;cursor:pointer;background:#eee}
+	#div2{float:left;background:white; width:35%; text-align:center; height:200px; padding:2% 0px 3% 0px; border-radius: 10px; margin-top:10px;margin-left:20px;cursor:pointer;background:#eee}
+	#div2 li{padding:9px}
+	#div2 li div:nth-of-type(2n+1){color:white}
+	#list1, #list2, #list3{display:none}
+	.result{font-size:10pt}
+	#mailCha, #pwCha, #telCha, #pwCheck{margin-left:10px;margin-right:20px;}
+	#changeBtn1{margin-right:20px}
+	#pwCha, #pwCheck{width:100px}
+	#c1, #c2, #c3{display:none}
+	/* ============================================= */

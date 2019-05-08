@@ -1,0 +1,262 @@
+@charset "UTF-8";
+	body{
+		font-family: 'Montserrat', sans-serif;
+	}
+	#top{
+		border-bottom:1px solid #eee;
+	}
+	#top img{
+		width:300px;
+		height:100px;
+	}
+	
+	
+	/* 최상단 div  */
+	#menuDiv{			
+		height:100px;
+	}
+	#logoDiv{
+		height:100px;
+	}
+	#logoDiv img{
+		cursor:pointer;
+	}
+	.navbar{
+		border-bottom:#eee solid 2px;
+	}
+	
+	/* 로그인,회원가입 버튼들 */
+	.nav-link{
+		color:black;
+	}
+	.nav-link:hover{
+		font-weight:bolder;
+	}
+	#logoDiv img{
+		width:300px;
+		height:100px;
+	}
+	#myInfo img{
+		width:50px;
+		height:50px;	
+	}
+	
+	
+	
+	#left{
+		margin-right:-10px;
+	}
+	#next{
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	.media{
+		margin-bottom:8px;
+	}
+	.thumbnail-img{
+		width:170px;
+		height:100px;
+		margin-right:10px;
+	}
+	.fnt-size-title{
+		font-size:0.9em;
+	}
+	.fnt-size-content{
+		font-size:0.8em;
+		color:#777;
+	}
+	.fnt-size-head{
+		font-size:1.2em;
+	}
+	.fnt-size-ins-content{
+		font-size:0.8em;
+		line-height:30px;
+	}
+	.media-head{
+		width:100%;
+	}
+	.media-title{
+		width:100%;
+		height:30px;
+		margin-top:10px;
+		padding-left:14px;
+	}
+	.media-details{
+		width:100%;
+		height:30px;
+	}
+	.views{
+		font-size:0.9em;
+		color:#777;
+	}
+	.fa-star{
+		color:#ffec23;
+		cursor:pointer;
+	}
+	.star-edit{
+		float:right;
+	}
+	.editor{
+		width:100%;
+	}
+	.ins-avatar{
+		margin-top:10px;
+		margin-left:14px;
+		width:70%;
+		height:100%;
+	}
+	.ins-content{
+		line-height:15px;
+	}
+	.instructor-content{
+		width:100%;
+		overflow:hidden;
+	}
+	.like-btn{
+		width:100%;
+		height:35px;
+		border:0;
+		border-radius:2px;
+		background-color: #FB0005;
+		color:white;
+		font-weight:bold;
+	}
+	.like-btn:focus{
+		outline:none;
+	}
+	.like-btn:hover{
+		cursor:pointer;
+	}
+	.show-less-btn{
+		width:150px;
+		height:40px;
+		border:0;
+		background-color: none;
+		color:#777;
+		margin-left:-40px;
+		font-weight:bold;
+	}
+	.show-less-btn:focus{
+		outline:none;
+	}
+	.show-less-btn:hover{
+		cursor:pointer;
+	}
+	/* video list  */
+	
+	.panel-group {
+	  padding-top: 20px;
+	}
+	.panel-default {
+	  border-radius: 10px;
+	  border: none;
+	  background: none;
+	  padding-top:5px;
+	  padding-left:5px;
+	  padding-bottom:5px;
+	  margin-bottom: 0;
+	  background-color:#eee;
+	}
+	.panel-default > .panel-heading {
+	  border: none;
+	  background: none;
+	  padding: 0;
+	}
+	.panel-default > .panel-heading + .panel-collapse .panel-body {
+	  border: none;
+	  padding: 0 0 0 32px;
+	}
+	.panel-title {
+	  font:1.2em;
+	  padding: 0;
+	  margin: 0;
+	}
+	.panel-group .panel+.panel {
+	  margin-top: 10px;
+	}
+	.panel-default .accordion-toggle:before {
+	  content: "";
+	  width: 15px;
+	  height: 15px;
+	  display: inline-block;
+	  background: #e54a1a url(http://keenthemes.com/assets/bootsnipp/toggle-icons.png) no-repeat 3px 7px;
+	  border-radius: 50%;
+	  margin-right: 10px;
+	  position: relative;
+	  top: 2px;
+	}
+	.panel-body p{
+		font-size:0.8em;
+	}
+	.panel-default .collapsed:before {
+	  background: #495764 url(http://keenthemes.com/assets/bootsnipp/toggle-icons.png) no-repeat 3px -151px;
+	}
+	.panel-default .panel-title:hover .collapsed:before {
+	  background-color: #5f6f7e;
+	}
+	.panel-default .accordion-toggle,
+	.panel-default .accordion-toggle:focus,
+	.panel-default .accordion-toggle:hover,
+	.panel-default .accordion-toggle:active {
+	  color: #5f6f7e;
+	  text-decoration: none;
+	}
+	.panel-default .collapsed {
+	  color: #5f6f7e;
+	}
+	
+	.com-avatar{
+		height:50px;
+	}
+	.wri-comment{
+		position:relative;
+		margin-left:10px;
+		margin-bottom:-22px;
+		outline: none;
+		min-height:0px;
+		font-size:0.9em;
+		resize:none;
+		border-top:black;
+		border-left:black;
+		border-right:black;
+		border-bottom-color:#D6D8DB;
+		border-bottom-width:2px;
+		border-bottom-style:solid;
+		transition-property:border-bottom-color;
+   		 transition-duration:0.2s;
+   		 transition-timing-function:ease-out;
+   		 transition-delay:10ms
+	}
+	.wri-comment:focus{
+		border-bottom-color:#606060;
+		transition: border-bottom-color 2s ease-out 10ms;
+	}
+	.wri-btn{
+		float:right;
+		position:relative;
+		top:30px;
+	}
+	.reset-btn{
+		border:none;
+		outline:none;
+		cursor:pointer;
+	}
+	.next_link:hover{
+		text-decoration:none;
+	}
+	/* */
+	
+	/* 회사정보 */
+	#companyInfoDiv{
+		margin-top:100px;
+		height:200px;	
+		margin-bottom:50px
+	}
+	#companyInfoDiv>div{		
+		text-align:center;
+	} 
+	#companyInfoDiv img{
+		width:210px;
+		height:70px;
+	}
+	

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body{
+		font-family: 'Montserrat', sans-serif;
+	}
+	/* 최상단 div  */
+	#menuDiv{			
+		height:100px;
+	}
+	#logoDiv{
+		height:100px;
+	}
+	#logoDiv img{
+		width:300px;
+		height:100px;
+		cursor:pointer;
+	}
+	.navbar{
+		border-bottom:#eee solid 2px;
+	}
+	/* 로그인,회원가입 버튼들 */
+	.nav-link-blk{
+		color:black;
+	}
+	.nav-link:hover{
+		font-weight:bolder;
+	}
+	.nav-link-pri{
+		color:black;
+		height:60px;
+		line-height:45px;
+	}
+	#logoDiv img{
+		width:300px;
+		height:100px;
+	}
+	#myInfo img{
+		width:50px;
+		height:50px;	
+	}
+	.fa-star{
+		color:#f4c150;
+	}
+	.content_linked:hover{
+		text-decoration:none;
+	}
+	progress::-webkit-progress-bar{		
+		background-color:black;
+	}
+	progress::-webkit-progress-bar{
+		background-color:red;
+	}
+	/* 회사정보 */
+	#companyInfoDiv{
+		margin-top:100px;
+		height:200px;	
+		margin-bottom:50px
+	}
+	#companyInfoDiv>div{		
+		text-align:center;
+	} 
+	#companyInfoDiv img{
+		width:210px;
+		height:70px;
+	}

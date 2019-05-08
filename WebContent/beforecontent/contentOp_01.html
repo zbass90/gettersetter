@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>main-acting</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="contentOp.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="contentOp.css" type="text/css"/>
+</head>
+<header>
+	<nav class="navbar row">
+		<div id="menuDiv" class="container col-md-12">			
+			<!-- 로고가 들어갈 div -->
+			<div id="logoDiv" ><img src="img/logo.jpg"/></div>
+				<!-- 멤버 : 로그인,회원가입 -->													
+			<div id="memberDiv"><!-- 우측정렬 -->
+				<ul class="nav justify-content-end align-items-center">
+					<li id="myInfo" class="nav-item">
+					<!-- 아이디값주기 -->
+						<a href="#" class="nav-link" data-toggle="popover" 
+						data-placement="left" data-title="My Info" 
+						data-popover-content="#myInfoPopover"><img src="img/profile.jpg" class="rounded-circle avatar" id="profile"></a>  					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- myinfo popover -->
+	<div id="myInfoPopover" style="display:none" >
+		<ul class="nav row">
+			<li class="nav-item col-12"><a href="my_profile.html" class="nav-link">My Profile</a>
+			<li class="nav-item col-12"><a href="#"  class="nav-link" id="logOut">Log Out</a>
+			<li class="nav-item col-12" ><a href="main_setter.html" class="nav-link" id="setterMode">Setter Mode</a>
+			
+		</ul>
+	</div>
+</header>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-8" id="left"> <!-- left -->
+			<div class="embed-responsive embed-responsive-16by9"><!-- 동영상 출력 -->
+				<iframe class="embed-responsive-item" src="video/acting.mp4"></iframe> <!-- https://www.youtube.com/embed/l49aooJqlwA -->
+			</div> <!-- 동영상 출력 -->
+			<div class="media-head">
+				<div class="media-title fnt-size-head"><b>Acting_01</b></div>
+				<div class="container">
+					<div class="media-details row">
+						<div class="col-sm-9 views">733,481 views</div>
+						<div class="col-sm-3">
+							<div class="star-edit">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+								<span class="start-coment"> 5.0</span>
+							</div>
+						</div>
+					</div>
+				</div><div style="border:0.2px solid lightgray; margin-top:5px; margin-bottom:5px"></div>
+				<div class="row editor">
+					<div class="col-sm-2">
+						<img src="img/profile.jpg" class="ins-avatar rounded-circle"/>
+					</div>
+					<div class="col-sm-8">
+						<div class="ins-content"><b class="fnt-size-title instructor">Christian Heilmann</b><br/><span class="fnt-size-content ins-date">Published on 10 Oct 2012</span>
+						</div>
+						<div class="instructor-content"><p class="fnt-size-ins-content">The iconic Beegie Adair Trio performs the jazz classic "Autumn Leaves," written by Joseph Kosma (English lyric by Johnny Mercer) - live at the Nashville Jazz Workshop in Nashville, TN.
+Beegie Adair -piano, Roger Spencer - bass, and Chris Brown - drums. 
+
+For more on the Trio's monthly performances in the Jazz Cave, or for information on any of our performances and classes, visit http://www.nashvillejazz.org. 
+
+To follow Beegie Adair online, go to www.beegieadair.com.
+
+Subscribe to our youtube channel for our jazz video of the week!</p>
+						</div>
+						<button class="btn-default show-less-btn">SHOW LESS</button>
+					</div>
+					<div class="col-sm-2">
+						<button class="like-btn">I LIKE IT!</button>
+					</div>
+				</div>
+			</div><hr/>
+			
+			<div class=panTop><b class="fnt-size-head">Course content</b></div>
+			<div class="panel-group" id="accordion1">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">Acting_01_A</a>
+            </div>
+          </div>
+          <div id="accordion1_1" class="panel-collapse collapse in">
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">
+              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">Acting_01_B</a>
+            </div>
+          </div>
+          <div id="accordion1_2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="panel-title">
+              <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">Acting_01_C</a>
+            </div>
+          </div>
+          <div id="accordion1_3" class="panel-collapse collapse">
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim minim veniam quis nostrud exercitation dolore magna ullamco.</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco sed eiusmod tempor ut labore et dolore.</p>
+            </div>
+          </div>
+        </div>
+      </div><hr/>
+		<div class="comment-pane">
+			<div class="row">
+				<div class="col-sm-1">
+					<img src="img/profile.jpg" class="com-avatar rounded-circle"/>
+				</div>
+				<div class="cols-sm-11">
+					<form>
+						<textarea class="wri-comment"rows="1" cols="90" placeholder="Add a public comment..." ></textarea><br/>
+						<div class="wri-btn" style="display:none">
+							<input type="reset" class="reset-btn" value="CANCEL"></input>
+							<input type="submit" class="submit-btn btn btn-outline-primary" value="COMMENT"></input>
+						</div>
+					</form>
+					<div class="comment-box">
+					
+					</div>
+				</div>
+			</div>
+		</div>
+			
+			
+			
+		</div><!-- left -->
+		<div class="col-sm-4"> <!-- right -->
+			<div id="next"><b class="fnt-size-title">Up Next</b></div>
+			<div class="media"> <!-- media (1) -->
+				<div class="media-left">
+					<img class="media-object thumbnail-img" src="img/actingThumb2.jpg"/>
+				</div>
+				<div class="media-body">
+					<div class="media-heading">
+						<b class="fnt-size-title">Acting_02_A</b>
+					</div>
+						<span class="fnt-size-content">Instructor : GYEOUNGHO, JI</span><br/>
+						<span class="fnt-size-content"><i class="fas fa-users fa-xs"></i> 3,658</span>
+				</div>
+			</div> <!-- media(1) -->
+			<div class="media"> <!-- media (2) -->
+				<div class="media-left">
+					<img class="media-object thumbnail-img" src="img/actingThumb3.jpg"/>
+				</div>
+				<div class="media-body">
+					<div class="media-heading">
+						<b class="fnt-size-title">Acting_03_A</b>
+					</div>
+						<span class="fnt-size-content">Instructor : GYEOUNGHO, JI</span><br/>
+						<span class="fnt-size-content"><i class="fas fa-users fa-xs"></i> 3,658</span>
+				</div>
+			</div> <!-- media(2) -->
+		</div><!-- right -->
+	</div> <!-- container-fluid->row -->
+</div> <!-- container-fluid -->
+</body>
+<footer>
+	<div id="companyInfoDiv" class="border row align-items-center"style="font-size:0.9em">
+		<div class="col-12 col-md-4"><img src="img/logo.jpg" onclick="location.href='main.html'" style="cursor:pointer"></div>
+		<div class="col-12 col-md-4">
+			<p>GetterSetter|CEO:A-TownOG|TEL:02-333-3333|EMAIL:Gese@gmail.com|Business Code:428-34-23442|Address:		
+			</p>
+		</div>
+		<div class="col-12 col-md-4">
+			<p>
+				채용안내 | 이용안내 | 앱다운로드
+			</p>
+		</div>
+	</div>
+</footer>
+</html> 
